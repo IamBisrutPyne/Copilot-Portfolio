@@ -1,0 +1,84 @@
+:root {
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --accent: #3b82f6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #0f172a;
+}
+
+.portfolio-nav {
+  background-color: rgba(15, 23, 42, 0.9);
+  backdrop-filter: blur(6px);
+}
+
+.hero-section {
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--bg-primary), var(--bg-secondary));
+  color: #ffffff;
+  padding-top: 5rem;
+}
+
+.hero-content {
+  padding-top: 7rem;
+  padding-bottom: 4rem;
+}
+
+.eyebrow {
+  color: #bfdbfe;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.profile-card {
+  max-width: 320px;
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.section-title {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.section-text {
+  max-width: 720px;
+  color: #334155;
+}
+
+.project-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.85rem;
+  padding: 1.25rem;
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.06);
+}
+
+.badge {
+  font-size: 0.9rem;
+  padding: 0.6rem 0.9rem;
+}
+
+footer {
+  background-color: #f8fafc;
+  border-top: 1px solid #e2e8f0;
+}
+
+@media (max-width: 991.98px) {
+  .hero-content {
+    padding-top: 6rem;
+  }
+
+  .section {
+    scroll-margin-top: 4.5rem;
+  }
+}
